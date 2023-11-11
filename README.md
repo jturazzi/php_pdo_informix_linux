@@ -6,7 +6,7 @@ Tested to Debian 12 and Informix SDK 4.50 FC10.
 
 You can either use the precompiled versions of informix or compile the pdo from the script in the stuff folder.
 
-[Avis'Github](https://github.com/Aevis/php_pdo_informix) repository offers a precompiled version of pdo informix on Windows.
+[Avis'Github repository](https://github.com/Aevis/php_pdo_informix) offers a precompiled version of pdo informix on Windows.
 
 ## Installing Precompiled PHP PECL extension
 
@@ -40,8 +40,8 @@ sudo ln -s /etc/php/$PHP_VERSION/mods-available/pdo_informix.ini /etc/php/$PHP_V
 
 ## Compile PDO Informix
 
-Run the compile.sh script in the stuff folder.
+Run the install_compile_pdo_informix.sh script in the stuff folder.
 
-You can also run the install script in the stuff folder to install the informix SDK on the server. 
+You can also run the install_informix_sdk.sh in the stuff folder to install the informix SDK on the server. 
 
 You will only need to download the SDK from the IBM website.
